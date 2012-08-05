@@ -3,7 +3,7 @@
 cd "${HOME}/.dotfiles"
 
 # Pull down the latest changes.
-# git pull origin master
+git pull origin master
 
 # Check out submodules.
 git submodule --quiet update --init
@@ -35,9 +35,6 @@ function mirrorfiles() {
     link "git/gitattributes"  ".gitattributes"
     link "git/gitignore"      ".gitignore"
     link "osx"                ".osx"
-    link "vim"                ".vim"
-    link "vim/gvimrc"         ".gvimrc"
-    link "vim/vimrc"          ".vimrc"
 
     echo "Dotfiles update complete"
 }

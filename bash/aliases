@@ -44,3 +44,6 @@ alias hidedotfiles="defaults write com.apple.Finder AppleShowAllFiles -bool fals
 # Hide/show all desktop icons (useful when presenting)
 alias showdeskicons="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 alias hidedeskicons="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+
+# Open sublime
+alias sublime="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
