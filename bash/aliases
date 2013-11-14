@@ -47,3 +47,8 @@ alias hidedeskicons="defaults write com.apple.finder CreateDesktop -bool false &
 
 # Open sublime
 alias sublime="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+
+alias tagandpush="git push --tags && git push"
+
+# http://hub.github.com/
+alias git=hub

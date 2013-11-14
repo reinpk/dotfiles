@@ -38,6 +38,7 @@
     # Use custom `.gitignore` and `.gitattributes`
     excludesfile = ~/.gitignore
     attributesfile = ~/.gitattributes
+    editor = subl -n -w
 
 [pretty]
     # tut: http://gitimmersion.com/lab_10.html
