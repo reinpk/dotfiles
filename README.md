@@ -15,7 +15,7 @@ This will create symlinks for most of the files.  The
 configuration taking place in `~/.extra` is not accidentally committed.
 
 ```bash
-git clone git://github.com/anthonyshort/dotfiles.git ~/.dotfiles
+git clone git://github.com/reinpk/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 bash bootstrap.sh
 ```
