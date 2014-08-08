@@ -18,7 +18,7 @@ alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo 
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
 # Open sublime
-alias sublime="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+alias subl="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
 # Segment.io dotfiles
 . ~/dev/segmentio/dotfiles/index.sh
